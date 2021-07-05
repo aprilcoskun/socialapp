@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SocialApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pastel_violet_darker</item>
+        <item name="colorPrimaryVariant">@color/pastel_violet</item>
+        <item name="colorOnPrimary">@color/alabaster</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pastel_orange</item>
+        <item name="colorSecondaryVariant">@color/pastel_yellow</item>
+        <item name="colorOnSecondary">@color/alabaster</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/pastel_blue_darker</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Customize your theme here. -->
+        <item name="colorBottomNavBackground">@color/pastel_violet_darker2</item>
+        <item name="colorBottomNavItemSelected">@color/granny_smith_apple_darker</item>
+        <item name="colorFragmentBackground">@color/pastel_blue_darker</item>
+    </style>
+</resources>

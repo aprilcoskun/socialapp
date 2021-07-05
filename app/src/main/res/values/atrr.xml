@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorBottomNavBackground" format="reference|color" />
+    <attr name="colorFragmentBackground" format="reference|color" />
+    <attr name="colorBottomNavItemSelected" format="reference|color" />
+</resources>

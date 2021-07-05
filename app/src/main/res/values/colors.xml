@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pastel_violet">#FFCC99C9</color>
+    <color name="pastel_violet_darker">#FF664D65</color>
+    <color name="pastel_violet_darker2">#FF140F14</color>
+    <color name="pastel_blue">#FF9EC1CF</color>
+    <color name="pastel_blue_darker">#FF101315</color>
+    <color name="granny_smith_apple">#FF9EE09E</color>
+    <color name="granny_smith_apple_darker">#FF2F432F</color>
+    <color name="pastel_yellow">#FFFDFD97</color>
+    <color name="pastel_orange">#FFFEB144</color>
+    <color name="pastel_orange_darker">#FF33230E</color>
+    <color name="pastel_red">#FFFF6663</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF7D7D7E</color>
+
+    <!-- Old colors -->
+    <color name="royal_blue">#FF425FDB</color> <!--  primary color  -->
+    <color name="dark_blue">#FF00309F</color> <!--  primary color  -->
+    <color name="alabaster">#FFFBFBFB</color> <!--  background for fragments  -->
+    <color name="athens_gray">#FFF2F2F5</color> <!--  background for cards  -->
+    <color name="hawkes_blue">#FFDFECFD</color> <!--  secondary button color  -->
+    <color name="rhino">#FF303263</color> <!--  text color/danger button color  -->
+    <color name="ghost">#FFD0D1D7</color> <!--  background for bottom nav item  -->
+    <color name="deep_cove">#FF040831</color> <!--  background for bottom nav(night)  -->
+    <color name="tuna">#FF33343D</color>
+</resources>
