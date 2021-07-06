@@ -33,13 +33,6 @@
         android:hint="Enter your password"
         android:inputType="textPassword" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginHorizontal="64dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/gray" />
-
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,24 +40,38 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/circle_background"
         android:text="Sign Up"
+        android:onClick="auth"
         android:textColor="@color/white" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="64dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/gray" />
+
+    <Button
+        style="@style/Widget.App.ButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginVertical="24dp"
         android:background="@drawable/circle_background"
-        android:text="Google"
-        android:textColor="@color/white" />
+        android:text="Continue with Google"
+        android:textColor="@color/black"
+        android:onClick="auth"
+        app:icon="@drawable/googleg_standard_color_18" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
+        style="@style/Widget.App.ButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/circle_background"
-        android:text="Facebook"
-        android:textColor="@color/white" />
+        android:text="Continue with Facebook"
+        android:textColor="@color/black"
+        android:onClick="auth"
+        app:icon="@drawable/com_facebook_button_icon" />
 
 </LinearLayout>

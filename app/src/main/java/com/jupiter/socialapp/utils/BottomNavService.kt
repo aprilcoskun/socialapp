@@ -23,7 +23,7 @@ class BottomNavService(var fragmentManager: FragmentManager) {
     private val searchFragment = SearchFragment()
     private val cartFragment = CartFragment()
     private val homeFragment = HomeFragment()
-    private val likeFragment = LikeFragment()
+    private val likeFragment = NotificationFragment()
 
     init {
         setFragment(homeFragment)

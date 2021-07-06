@@ -24,4 +24,12 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
+
+    <style name="Widget.App.ButtonStyle"
+        parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/GhostThemeOverlay</item>
+    </style>
+    <style name="GhostThemeOverlay">
+        <item name="colorPrimary">@color/ghost</item>
+    </style>
 </resources>
